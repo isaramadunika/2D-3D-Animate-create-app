@@ -1,0 +1,185 @@
+import { Character, DEFAULT_CONFIG } from '../types/character';
+
+export const characters: Character[] = [
+{
+  id: 'chr-1001',
+  name: 'Milo the Fox',
+  type: 'animal',
+  status: 'published',
+  tags: ['Numbers', 'Level 1'],
+  author: 'Aisha Rahman',
+  createdAt: '2026-05-04',
+  updatedAt: '2026-07-28',
+  usedIn: 12,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'animal',
+    bodyShape: 'pear',
+    bodyColor: '#F59E0B',
+    headColor: '#FBBF24',
+    clothesStyle: 'tshirt',
+    clothesColor: '#4F46E5',
+    mouthStyle: 'grin',
+    accessory: 'bowtie'
+  }
+},
+{
+  id: 'chr-1002',
+  name: 'Bloom the Sprout',
+  type: 'plant',
+  status: 'published',
+  tags: ['Science', 'Nature'],
+  author: 'Daniel Okafor',
+  createdAt: '2026-04-11',
+  updatedAt: '2026-07-24',
+  usedIn: 8,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'plant',
+    bodyShape: 'tall',
+    bodyColor: '#22C55E',
+    headColor: '#4ADE80',
+    clothesStyle: 'none',
+    eyeStyle: 'happy',
+    noseStyle: 'none',
+    accessory: 'none'
+  }
+},
+{
+  id: 'chr-1003',
+  name: 'Nia the Explorer',
+  type: 'human',
+  status: 'draft',
+  tags: ['Reading', 'Level 2'],
+  author: 'Aisha Rahman',
+  createdAt: '2026-06-19',
+  updatedAt: '2026-07-30',
+  usedIn: 3,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'human',
+    bodyShape: 'round',
+    bodyColor: '#8B5A2B',
+    headColor: '#8B5A2B',
+    hairStyle: 'ponytail',
+    hairColor: '#0F172A',
+    clothesStyle: 'overalls',
+    clothesColor: '#06B6D4',
+    accessory: 'glasses'
+  }
+},
+{
+  id: 'chr-1004',
+  name: 'Pip the Bunny',
+  type: 'animal',
+  status: 'review',
+  tags: ['Shapes', 'Level 1'],
+  author: 'Lena Fischer',
+  createdAt: '2026-03-02',
+  updatedAt: '2026-07-18',
+  usedIn: 21,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'animal',
+    bodyShape: 'round',
+    bodyColor: '#E2E8F0',
+    headColor: '#FFFFFF',
+    eyeStyle: 'oval',
+    clothesStyle: 'cape',
+    clothesColor: '#F472B6',
+    accessory: 'headphones',
+    accessoryColor: '#4F46E5'
+  }
+},
+{
+  id: 'chr-1005',
+  name: 'Cosmo the Cactus',
+  type: 'plant',
+  status: 'published',
+  tags: ['Science', 'Desert'],
+  author: 'Daniel Okafor',
+  createdAt: '2026-02-14',
+  updatedAt: '2026-07-09',
+  usedIn: 6,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'plant',
+    bodyShape: 'square',
+    bodyColor: '#16A34A',
+    headColor: '#22C55E',
+    eyeStyle: 'sleepy',
+    noseStyle: 'none',
+    mouthStyle: 'neutral',
+    clothesStyle: 'none',
+    accessory: 'hat',
+    accessoryColor: '#F59E0B'
+  }
+},
+{
+  id: 'chr-1006',
+  name: 'Captain Bo',
+  type: 'human',
+  status: 'published',
+  tags: ['Music', 'Level 3'],
+  author: 'Lena Fischer',
+  createdAt: '2026-01-22',
+  updatedAt: '2026-06-30',
+  usedIn: 17,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'human',
+    bodyShape: 'tall',
+    bodyColor: '#FBBF24',
+    headColor: '#FDE68A',
+    hairStyle: 'spiky',
+    hairColor: '#4F46E5',
+    clothesStyle: 'tshirt',
+    clothesColor: '#22C55E',
+    accessory: 'headphones'
+  }
+},
+{
+  id: 'chr-1007',
+  name: 'Wally the Whale',
+  type: 'animal',
+  status: 'draft',
+  tags: ['Ocean', 'Level 2'],
+  author: 'Aisha Rahman',
+  createdAt: '2026-06-02',
+  updatedAt: '2026-07-31',
+  usedIn: 0,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'animal',
+    bodyShape: 'pear',
+    bodyColor: '#06B6D4',
+    headColor: '#22D3EE',
+    eyeStyle: 'happy',
+    noseStyle: 'none',
+    clothesStyle: 'none',
+    accessory: 'none'
+  }
+},
+{
+  id: 'chr-1008',
+  name: 'Fern the Fern',
+  type: 'plant',
+  status: 'review',
+  tags: ['Nature', 'Level 1'],
+  author: 'Lena Fischer',
+  createdAt: '2026-05-28',
+  updatedAt: '2026-07-21',
+  usedIn: 4,
+  config: {
+    ...DEFAULT_CONFIG,
+    type: 'plant',
+    bodyShape: 'round',
+    bodyColor: '#4ADE80',
+    headColor: '#22C55E',
+    hairStyle: 'curly',
+    hairColor: '#16A34A',
+    clothesStyle: 'none',
+    noseStyle: 'none',
+    accessory: 'none'
+  }
+}];
